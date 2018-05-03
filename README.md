@@ -1,6 +1,6 @@
-# hacker-news
+# Hacker News
 
-> A Vue.js project
+> A Hackernews clone built with Vue.js, vue router and vuex.
 
 ## Build Setup
 
