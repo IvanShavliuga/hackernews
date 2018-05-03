@@ -10,7 +10,15 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "vue": "^2.5.11"
+    "axios": "^0.17.1",
+    "date-fns": "^1.29.0",
+    "firebase": "^4.9.1",
+    "firebase-hackernews": "^2.11.0",
+    "vue": "^2.5.11",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "workbox-sw": "^3.0.0",
+    "workbox-webpack-plugin": "^3.0.0"
   },
   "browserslist": [
     "> 1%",
