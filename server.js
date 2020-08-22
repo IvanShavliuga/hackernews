@@ -11,6 +11,10 @@ app.get('/', (req, res) => res.sendFile(
   path.join(__dirname, 'index.html'))
 );
 
+app.get('/api', (req, res) => res.sendFile(
+  path.join(__dirname, 'api/package.json'))
+);
+
 const server = http.createServer(app)
 
 const port = process.env.PORT || 5000;

@@ -11,6 +11,7 @@
 import Navigation from './components/Navigation/Navigation';
 import TopNews from './components/Pages/TopNews';
 
+
 export default {
   name: 'app',
   data () {
@@ -18,7 +19,7 @@ export default {
       message: 'Another Hacker News App'
     }
   },
-  components: { Navigation },
+  components: { Navigation }
 }
 </script>
 
